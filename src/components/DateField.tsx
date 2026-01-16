@@ -79,8 +79,8 @@ export function DateField({
         <div
           className={
             isDark
-              ? 'datepicker-popper absolute z-50 mt-2 w-64 rounded-2xl border border-slate-800 bg-slate-950 p-3 text-xs shadow-xl shadow-slate-950/70'
-              : 'datepicker-popper absolute z-50 mt-2 w-64 rounded-2xl border border-slate-200 bg-white p-3 text-xs shadow-xl shadow-slate-200/70'
+              ? 'datepicker-popper absolute z-50 mt-2 w-64 rounded-2xl border border-slate-800 bg-slate-950 p-3 text-xs shadow-xl shadow-slate-950/70 left-1/2 -translate-x-1/2 sm:left-0 sm:translate-x-0'
+              : 'datepicker-popper absolute z-50 mt-2 w-64 rounded-2xl border border-slate-200 bg-white p-3 text-xs shadow-xl shadow-slate-200/70 left-1/2 -translate-x-1/2 sm:left-0 sm:translate-x-0'
           }
         >
           <div
